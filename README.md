@@ -29,6 +29,7 @@ The app updates itself. A few seconds after launch (and every few hours while it
 - **Drag to arrange:** drag pads around to reorder. The **Size** slider makes the tiles bigger or smaller.
 - **Choose your output:** send sound to any playback device, such as a virtual audio cable for OBS or Discord.
 - **Import from Stream Deck or a folder:** **⇪ Import** reads your Stream Deck profiles (sound buttons, names, button images and folders become pads and categories) or any folder of audio. You pick exactly which sounds to bring in, and ones you already have are unticked automatically.
+- **Sound packs:** **📦 Export pack** saves any selection of your sounds (with pictures, names, categories, colors and play actions) into one `.bmpack` file you can share. Friends import it with **⇪ Import → From a sound pack…**, pick what they want, and ones they already have are skipped. Hotkeys and settings are never included.
 - **Add sounds easily:** drop audio files (MP3, WAV, OGG, M4A, FLAC) onto the window or use **＋ Add sounds**.
 
 ## Quick start
@@ -42,6 +43,8 @@ The app updates itself. A few seconds after launch (and every few hours while it
 | Give a pad a picture | Hover it and press `Ctrl+V` with an image copied |
 | Send sound to OBS / Discord | Pick the device in the **Output** dropdown |
 | Bring in my Stream Deck sounds | **⇪ Import → From Stream Deck**, tick what you want |
+| Share my sounds with a friend | **📦 Export pack**, send them the `.bmpack` file |
+| Get sounds from a friend | **⇪ Import → From a sound pack…** |
 | Stop everything | **■ Stop all** or `Ctrl+Alt+Esc` |
 | Fade everything out | **〰 Fade all** or `Ctrl+Alt+F` (length: **Fade** slider) |
 
