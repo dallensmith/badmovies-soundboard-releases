@@ -19,6 +19,7 @@ The app updates itself. A few seconds after launch (and every few hours while it
 ## Features
 
 - **Pads with hotkeys:** click a pad, or give it a global hotkey that works even when the app is in the background. A global **Stop all** hotkey (default `Ctrl+Alt+Esc`) cuts everything.
+- **Fade all:** a gentle fade-out of everything playing (`Ctrl+Alt+F`). The **Fade** slider sets the length from 0.5 to 6 seconds (default 1.5).
 - **Play actions per pad:** *Play / Stop*, *Play / Overlap*, *Play / Restart*, *Loop / Stop*.
 - **Record PC audio:** press **● Record PC audio**, play the sound on your PC, press stop. It records what you hear in stereo with no quality-reducing voice processing, auto-trims the silence, opens the editor, and asks you to name it.
 - **Waveform editor:** drag to select, keep or delete a selection, fade in/out, auto-trim, undo.
@@ -27,6 +28,7 @@ The app updates itself. A few seconds after launch (and every few hours while it
 - **Categories:** group pads into tabs. Drag a pad onto a tab to move it.
 - **Drag to arrange:** drag pads around to reorder. The **Size** slider makes the tiles bigger or smaller.
 - **Choose your output:** send sound to any playback device, such as a virtual audio cable for OBS or Discord.
+- **Import from Stream Deck or a folder:** **⇪ Import** reads your Stream Deck profiles (sound buttons, names, button images and folders become pads and categories) or any folder of audio. You pick exactly which sounds to bring in, and ones you already have are unticked automatically.
 - **Add sounds easily:** drop audio files (MP3, WAV, OGG, M4A, FLAC) onto the window or use **＋ Add sounds**.
 
 ## Quick start
@@ -39,7 +41,9 @@ The app updates itself. A few seconds after launch (and every few hours while it
 | Rename, recolor, set volume, hotkey, action or category | Hover its pad → **⚙** |
 | Give a pad a picture | Hover it and press `Ctrl+V` with an image copied |
 | Send sound to OBS / Discord | Pick the device in the **Output** dropdown |
+| Bring in my Stream Deck sounds | **⇪ Import → From Stream Deck**, tick what you want |
 | Stop everything | **■ Stop all** or `Ctrl+Alt+Esc` |
+| Fade everything out | **〰 Fade all** or `Ctrl+Alt+F` (length: **Fade** slider) |
 
 To set a hotkey: open the pad's ⚙, click the hotkey button, then press the keys you want.
 
